@@ -17,7 +17,6 @@ void insert( string x, Nodo*ac){
 			ac->hijos[x[i]]->val=ac->val+x[i];
 		}
 		ac=ac->hijos[x[i]];
-		cout<<ac->val<<endl;
 	}	
 	ac->eow=true;
 }
